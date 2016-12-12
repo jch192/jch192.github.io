@@ -1,0 +1,41 @@
+body {
+  background: transparent;
+  color: black;
+  font-family: serif;
+  font-size: 12pt;
+}
+
+h2 {
+  font-size: 16pt;
+  text-decoration: underline;
+}
+
+h3, h4 {
+  font-size: 13pt;
+  line-height: .05in;
+}
+
+address {
+  font-style: normal;
+  line-height: .05in;
+}
+
+p {
+  line-height: .02in;
+}
+
+#jch {
+  font-size: 18pt;
+}
+
+#mbm {
+  text-decoration: none;
+}
+
+#usc {
+  padding-top: .002in;
+}
+
+#return, #bottomnavresume {
+  display: none;
+}

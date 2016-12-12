@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <title>Resume</title>
-  <link href="style.css" rel="stylesheet" />
+  <link href="../style.css" rel="stylesheet" media="screen" />
+  <link href="print.css" rel="stylesheet" media="print" />
   <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 </head>
@@ -11,83 +12,64 @@
 <body id="top">
 <div id= "container">
 
-    <header>
-        <h1>Julia C. Hienz</h1>
-    </header>
-
-<main>
-
-    <article id="address">
+<header>
+  <h1 id="jch">Julia C. Hienz</h1>
+    <address>
       <p>2600 SW 27th Ave PH 1</p>
       <p>Miami, FL 33133</p>
       <p>262.309.9550</p>
-    </article>
+      <p>juliahienz@gmail.com</p>
+    </address>
+</header>
 
-    <section>
-        <h2>Education</h2>
-
-      <article>
-        <h3>UNIVERSITY OF MIAMI</h3>
-
+<main>
+  <section>
+    <h2>Education</h2>
+    <article>
+      <h3>UNIVERSITY OF MIAMI</h3>
         <p>Coral Gables, <abbr title="Florida">FL</abbr></p>
         <p>Expected Graduation: December 2017</p>
+        <p id="degree1"><strong>Master of Arts in Journalism</strong></p>
+    </article>
 
-        <p id="Degree1"><strong>Master of Arts in Journalism</strong></p>
-
-      </article>
-
-      <article id="USC">
-        <h3>MOORE SCHOOL OF BUSINESS, UNIVERSITY OF SOUTH CAROLINA</h3>
-
+    <article id="usc">
+      <h3 id="sc">MOORE SCHOOL OF BUSINESS, UNIVERSITY OF SOUTH CAROLINA</h3>
         <p>Columbia, <abbr title="South Carolina">SC</abbr></p>
-
         <p>December 2013</p>
-
-        <p id="Degree2"><strong>Bachelor of Science in Business Administration</strong>, <em>magna cum laude</em></p>
-
-        <p id="Details1"><strong>Major:</strong> Marketing; <strong>Minor:</strong> Retail</p>
-        <p id="Details2"><strong>Awards:</strong> Dean's List (5 semesters), President's List (Fall 2013),
+        <p id="degree2"><strong>Bachelor of Science in Business Administration</strong>, <em>magna cum laude</em></p>
+        <p id="details1"><strong>Major:</strong> Marketing; <strong>Minor:</strong> Retail</p>
+        <p id="details2"><strong>Awards:</strong> Dean's List (5 semesters), President's List (Fall 2013),
           USC Department of Retailing Scholar</p>
-      </article>
+    </article>
 
-    </section>
+  </section>
 
-    <section>
-        <h2>Experience</h2>
-
+  <section>
+    <h2>Experience</h2>
 
       <article>
-          <h3>ROMNEY PILATES CENTER, LLC</h3>
-
-            <p>New Orleans, <abbr title="Louisiana">LA</abbr></p>
-
-          <h4>Manager</h4>
-
+        <h3>ROMNEY PILATES CENTER, LLC</h3>
+          <p>New Orleans, <abbr title="Louisiana">LA</abbr></p>
+        <h4>Manager</h4>
           <p>07/14-07/16</p>
-
-            <ul>
+          <ul>
               <li>Handled all client needs, including account and schedule management,
                 rectifying complaints.</li>
               <li>Managed instructor schedules and tended to their issues.</li>
-              <li>Wrote for and edited all copy for studio blog, <a href="http://www.mindbodymvmt.com">mindbodymvmt.com</a>.</li>
+              <li>Wrote for and edited all copy for studio blog, <a href="http://www.mindbodymvmt.com" id="mbm">mindbodymvmt.com</a>.</li>
               <li>Managed between 10-15 employees, created schedules each month, and trained new hires.</li>
               <li>Helped choose and design merchandise for retail section of studio.</li>
               <li>Oversaw day-to-day operations of studio.</li>
               <li>Gave direct feedback and suggestions to owner.</li>
-            </ul>
-
+          </ul>
       </article>
 
       <article>
-          <h3>GARNET AND BLACK MAGAZINE, UNIVERSITY OF SOUTH CAROLINA</h3>
-
-            <p>Columbia, <abbr title="South Carolina">SC</abbr></p>
-
-          <h4>Writer and Editor</h4>
-
+        <h3>GARNET AND BLACK MAGAZINE, UNIVERSITY OF SOUTH CAROLINA</h3>
+          <p>Columbia, <abbr title="South Carolina">SC</abbr></p>
+        <h4>Writer and Editor</h4>
           <p>09/11-05/13</p>
-
-            <ul>
+          <ul>
               <li>Began as staff writer: developed story ideas and regularly wrote articles
               relevant to target audience.
                 <ul>
@@ -109,13 +91,13 @@
                 </ul>
               </li>
 
-            </ul>
+          </ul>
       </article>
 
       <article>
         <h3>ERA WILDER REALTY</h3>
 
-          <p id="City">Columbia, <abbr title="South Carolina">SC</abbr></p>
+          <p id="city">Columbia, <abbr title="South Carolina">SC</abbr></p>
 
         <h4>Marketing Intern</h4>
 
@@ -132,31 +114,33 @@
 
       <article>
         <h3>FASHION BOARD, UNIVERSITY OF SOUTH CAROLINA</h3>
-
           <p>Columbia, <abbr title="South Carolina">SC</abbr></p>
-
         <h4>Vice President of Programming</h4>
-
           <p>08/12-05/13</p>
-
             <ul>
               <li>Served as executive board member, planning all programs.</li>
               <li>Planned a fashion-week of events, including two runway shows.</li>
               <li>Helped select and design new Fashion Board merchandise.</li>
             </ul>
-
       </article>
     </section>
 
+    <p id="references"><em>References and writing samples available upon request.</em></p>
+
+  <article>
+    <div id="bottomnavresume">
+        <ul>
+          <li><a href="../index/homepage.html" style="text-decoration: none">Home</a></li>
+          <li><a href="../Infographics/infographic.html" style="text-decoration: none">Infographics</a></li>
+          <li><a href="../WrittenWork/writtenwork.html" style="text-decoration: none">Written Work</a></li>
+          <li><a href="../Aboutme/aboutme.html" style="text-decoration: none">About Me</a></li>
+        </ul>
+    </div>
+  </article>
+
+  <p id="return"><a href="#top" style="text-decoration:none">Return to top</a></p>
+
   </main>
-
-  <footer>
-    <img src="headshot.png" alt="Picture of Julia" id="headshot" />
-    <p id="References"><em>References and writing samples available upon request.</em></p>
-    <p id="Talk"><a href="mailto:juliahienz@gmail.com?subject=Hello!">Let's Talk!</a></p>
-    <p id="Return"><a href="#top">Return to top</a></p>
-  </footer>
-
 </div>
 </body>
 </html>
